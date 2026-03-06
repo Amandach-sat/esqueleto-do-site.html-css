@@ -1,0 +1,109 @@
+/* css reset */
+  
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: verdana;
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+#container {
+    position: relative;
+    width: 70%;
+    height: auto;
+    background-color: rgb(119, 179, 252);
+    margin: auto;
+}
+#limao {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    background-color: chartreuse;
+    text-align: left;
+    font-size: 10px;
+}
+#sec {
+    position: relative;
+    width: 100%;
+    height: 1350px;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+#caixa {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: rgb(221, 76, 44);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    
+}
+.caixinha {
+    position: relative;
+    width: 45%;
+    height: 300px;
+    background-color: rgb(126, 96, 126);
+}
+#caixa1 {
+    position: relative;
+    width:100%;
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.caixinha1 {
+    position: relative;
+    width: 20%;
+    height: 270px;
+    background-color: white;
+}
+#laranja {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background-color: darkorange;
+}
+#caixa2 {
+    position: relative;
+    width:100%;
+    height: 300px;
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+#caixinha2 {
+     position: relative;
+    width: 40%;
+    height: 250px;
+    background-color: rgb(17, 13, 135);
+}
+#caixinha3 {
+    position: relative;
+    width: 40%;
+    height: 250px;
+    background-color: rgb(83, 156, 95)
+}
+#rodape {
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
